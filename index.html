@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Rock Papier Scissors</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="rounds-block">
+            <h3 class="rounds-heading">How many rounds?</h3>
+            <div class="rounds-options">
+                <input type="radio" name="rounds" id="five" value="5"> 5
+                <input type="radio" name="rounds" id="ten" value="10"> 10
+                <input type="radio" name="rounds" id="fifteen" value="15"> 15
+                <input type="radio" name="rounds" id="twenty" value="20"> 20
+            </div>
+            <div class="rounds-result">
+                <p id="rounds-min">0</p>
+                <p id="rounds-max">/0</p>
+            </div>
+        </div>
+        <div class="result-block">
+            <p>USER</p>
+            <p id="user-result">0</p>
+            <p>:</p>
+            <p id="computer-result">0</p>
+            <p>COMP</p>
+        </div>
+        <h2 class="game-heading">Let's play</h2>
+        <div class="icon-block">
+ 
+                <i class="far fa-hand-rock"></i>
+    
+                <i class="far fa-hand-paper"></i>
+    
+                <i class="far fa-hand-scissors"></i>
+       
+        </div>
+        <h4>MAKE YOUR MOVE</h4>
+        <button id="btn">restart</button>
+    </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

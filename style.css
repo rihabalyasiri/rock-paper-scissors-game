@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.app {
+    width:100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rounds-block {
+    width:20%;
+    height: 20vh;
+    border: 1px solid white;
+}
+
+.rounds-heading {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.rounds-options {
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.rounds-result {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    opacity: 0;
+}
+
+.result-block {
+    display: flex;
+    width:30%;
+    height: 10vh;
+    justify-content: space-around;
+
+}
+
+.icon-block {
+    width:30%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.icon {
+    
+    width:90px;
+    height: 90px;
+    text-align: center;
+}
+
+.far {
+   padding: 20px; 
+   border: 2px solid white;
+border-radius: 50%;
+}
+
+#btn {
+    background: rgb(161, 86, 86);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.win {
+    border: 2px solid green; 
+    border-radius: 50%;
+}
+
+.lose {
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.equal {
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+
+
+
